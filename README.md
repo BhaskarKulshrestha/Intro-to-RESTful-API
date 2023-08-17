@@ -60,9 +60,9 @@ app.post(function(req,res){
 ```
 when creating a new resource, POST to the parent and the service takes care of associating the new resource with the parent, assigning an ID (new resource URI), etc.
 
-**PUT and UPDATE:**
+**PUT and PATCH:**
 
-PUT and UPDATE does the same thing to UPDATE in the database.
+PUT and PATCH does the same thing to UPDATE in the database.
 
 - # HTTP Method Comparison: PUT vs. PATCH
 
