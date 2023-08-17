@@ -15,8 +15,8 @@ In the world of computers, different software programs and devices need to commu
 **Definition:**
 REST, or Representational State Transfer, is an architectural style for designing networked applications. It is a set of constraints and principles that guide the design of web services and systems, emphasizing simplicity, scalability, and interoperability between different software applications on the internet. RESTful systems use standard HTTP methods (GET, POST, PUT, DELETE, etc.) to manipulate resources, which are identified by unique URLs. 
 
-REST is a architectural style for designing API's.
-Alternatives of REST is **SOAP,GRAPH QL,FALCOR**
+*REST is a architectural style for designing API's.
+Alternatives of REST is **SOAP,GRAPH QL,FALCOR***
 
 *REST is characterized by a few key principles:*
 
@@ -40,7 +40,9 @@ Alternatives of REST is **SOAP,GRAPH QL,FALCOR**
 
 - **POST GET PUT PATCH DELETE**
   
-**GET:**Get is similary as READ in database
+**GET:**
+
+Get is similary as READ in database
 ```
 app.get(function(req,res){
 
@@ -48,7 +50,9 @@ app.get(function(req,res){
 ```
 GET returns a representation in XML or JSON and an HTTP response code of 200 (OK). In an error case, it most often returns a 404 (NOT FOUND) or 400 (BAD REQUEST).
 
-**POST:**POST is similar to that of CREATE
+**POST:**
+
+POST is similar to that of CREATE
 ```
 app.post(function(req,res){
 
@@ -57,6 +61,7 @@ app.post(function(req,res){
 when creating a new resource, POST to the parent and the service takes care of associating the new resource with the parent, assigning an ID (new resource URI), etc.
 
 **PUT and UPDATE:**
+
 PUT and UPDATE does the same thing to UPDATE in the database.
 
 - # HTTP Method Comparison: PUT vs. PATCH
