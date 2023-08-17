@@ -41,7 +41,7 @@ Alternatives of REST is **SOAP,GRAPH QL,FALCOR***
 - **POST GET PUT PATCH DELETE**
   
 **GET:**
-
+<br>
 Get is similary as READ in database
 ```
 app.get(function(req,res){
@@ -51,7 +51,7 @@ app.get(function(req,res){
 GET returns a representation in XML or JSON and an HTTP response code of 200 (OK). In an error case, it most often returns a 404 (NOT FOUND) or 400 (BAD REQUEST).
 
 **POST:**
-
+<br>
 POST is similar to that of CREATE
 ```
 app.post(function(req,res){
